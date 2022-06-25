@@ -79,6 +79,8 @@ namespace Zadanie_3
         }
         public string tytułAutorWydawca => $"{Tytul} - {Autor}, wydawca: {Wydawca}";
 
+        public string skrótInformacji => $"Edytujesz wpis: {Tytul} - {Autor}";
+
         public DateTime? DataWydania
         {
             get => dataWydania;

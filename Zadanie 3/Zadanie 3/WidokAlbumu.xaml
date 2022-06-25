@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Zadanie_3"
         mc:Ignorable="d"
-        Title="Lista albumów"
+        Title="Lista Albumów"
         Height="800"
         Width="500"
         FontSize="24"
@@ -27,7 +27,10 @@
 
         <TextBlock
             Grid.ColumnSpan="2"
-            Text="{Binding SkrótInformacji}"
+            TextAlignment="Center"
+            TextWrapping="Wrap"
+            VerticalAlignment="Center"
+            Text="{Binding skrótInformacji}"
             />
 
         <Label
