@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Lista Albumów"
         Height="800"
-        Width="500"
+        Width="600"
         FontSize="24"
         >
     <Grid>

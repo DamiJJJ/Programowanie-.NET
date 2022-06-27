@@ -38,5 +38,7 @@ namespace Zadanie_3
                 model.NowyAlbum()
                 ).Show();
         }
+
+
     }
 }

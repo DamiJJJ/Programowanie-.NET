@@ -22,7 +22,7 @@ namespace Zadanie_3
             InitializeComponent();
         }
 
-        private void OK(object sender, RoutedEventArgs e)
+        private void OK( object sender, RoutedEventArgs e)
         {
             this.Close();
         }

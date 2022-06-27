@@ -11,10 +11,10 @@ namespace Zadanie_3
         static readonly Dictionary<string, string[]> PowiązaneWłaściwości
             = new Dictionary<string, string[]>()
             {
-                ["Tytuł"] = new string[] { "tytułAutorWydawca" },
+                ["Tytul"] = new string[] { "tytułAutorWydawca" },
                 ["Autor"] = new string[] { "tytułAutorWydawca" },
                 ["Wydawca"] = new string[] { "tytułAutorWydawca" },
-                ["Nośnik"] = new string[] { "Nośnik" },
+                ["Nosnik"] = new string[] { "Nośnik" },
                 ["DataWydania"] = new string[] { "Wiek" },
             };
         void OnPropertyChanged(
