@@ -1,0 +1,40 @@
+﻿<Window x:Class="Zadanie_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie_4"
+        mc:Ignorable="d"
+        Title="Zadanie 4" 
+        Height="500"
+        Width="550"
+        FontSize="18">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <ListBox
+            Name="Pojazdy"
+            DataContext="{DynamicResource DaneSamochody}"
+            ItemsSource="{Binding XPath=Rodzaj}"
+            >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding XPath=Nazwa}"/>
+                        <TextBlock 
+						Text="{Binding XPath=Opis}"
+						FontSize="14"
+					    Padding="20, 0,0,10"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button
+            Grid.Row="1" Click="WyświetlRodzaj"
+            >Wyświetl Marki</Button>
+
+    </Grid>
+</Window>

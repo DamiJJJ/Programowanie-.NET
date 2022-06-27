@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Pojazdy>
+
+	<Rodzaj>
+		<Nazwa>Supersamochody</Nazwa>
+		<Opis>Supersamochód, z definicji, posiada duże przyspieszenie.</Opis>
+
+		<Marka>
+			<Nazwa>Lamborghini</Nazwa>
+			<Kraj>Włochy</Kraj>
+			<DataPowstania>1963</DataPowstania>
+			<Model>
+				<Nazwa>Murciélago</Nazwa>
+				<Klasa>E</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>6.5</PojemnośćSilnika>
+					<MocSilnika>670KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Aventador</Nazwa>
+				<Klasa>E</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>6.5</PojemnośćSilnika>
+					<MocSilnika>700KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Ferrari</Nazwa>
+			<Kraj>Włochy</Kraj>
+			<DataPowstania>1938</DataPowstania>
+			<Model>
+				<Nazwa>F430</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>4.30</PojemnośćSilnika>
+					<MocSilnika>510KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>458 Italia</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>4.5</PojemnośćSilnika>
+					<MocSilnika>570KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+	</Rodzaj>
+	
+	<Rodzaj>
+		<Nazwa>Samochody sportowe</Nazwa>
+		<Opis>Klasa samochodów, której głównym celem jest możliwie najlepsze prowadzenie.</Opis>
+		<Marka>
+			<Nazwa>Ford</Nazwa>
+			<Kraj>USA</Kraj>
+			<DataPowstania>16.06.1903</DataPowstania>
+			<Model>
+				<Nazwa>Mustang</Nazwa>
+				<Klasa>S</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>5.0</PojemnośćSilnika>
+					<MocSilnika>450KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>GT</Nazwa>
+				<Klasa>S</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>3.5</PojemnośćSilnika>
+					<MocSilnika>656KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Chevrolet</Nazwa>
+			<Kraj>USA</Kraj>
+			<DataPowstania>3.11.1911</DataPowstania>
+			<Model>
+				<Nazwa>Camaro</Nazwa>
+				<Klasa>S</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>5.7</PojemnośćSilnika>
+					<MocSilnika>453KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Corvette</Nazwa>
+				<Klasa>S</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>6.2</PojemnośćSilnika>
+					<MocSilnika>466KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Porsche</Nazwa>
+			<Kraj>Niemcy</Kraj>
+			<DataPowstania>25.04.1931</DataPowstania>
+			<Model>
+				<Nazwa>911</Nazwa>
+				<Klasa>S</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>3.6</PojemnośćSilnika>
+					<MocSilnika>325KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Cayman</Nazwa>
+				<Klasa>S</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.8</PojemnośćSilnika>
+					<MocSilnika>275KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+	</Rodzaj>
+
+	<Rodzaj>
+		<Nazwa>SUVy</Nazwa>
+		<Opis>Samochody osobowe typu SUV.</Opis>		
+
+		<Marka>
+			<Nazwa>Mitsubishi</Nazwa>
+			<Kraj>Japonia</Kraj>
+			<DataPowstania>1870</DataPowstania>
+			<Model>
+				<Nazwa>Outlander</Nazwa>
+				<Klasa>C</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.5</PojemnośćSilnika>
+					<MocSilnika>184KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>ASX</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>1.6</PojemnośćSilnika>
+					<MocSilnika>117KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>BMW</Nazwa>
+			<Kraj>Niemcy</Kraj>
+			<DataPowstania>7.03.1916</DataPowstania>
+			<Model>
+				<Nazwa>X4</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.0</PojemnośćSilnika>
+					<MocSilnika>180KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>X5</Nazwa>
+				<Klasa>D</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>3.0</PojemnośćSilnika>
+					<MocSilnika>306KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+		<Marka>
+			<Nazwa>Jeep</Nazwa>
+			<Kraj>USA</Kraj>
+			<DataPowstania>1963</DataPowstania>
+			<Model>
+				<Nazwa>Wrangler</Nazwa>
+				<Klasa>E</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>3.6</PojemnośćSilnika>
+					<MocSilnika>381KM</MocSilnika>
+				</Silnik>
+			</Model>
+			<Model>
+				<Nazwa>Willys MB</Nazwa>
+				<Klasa>-</Klasa>
+				<Silnik>
+					<PojemnośćSilnika>2.20</PojemnośćSilnika>
+					<MocSilnika>60KM</MocSilnika>
+				</Silnik>
+			</Model>
+		</Marka>
+
+	</Rodzaj>
+
+
+</Pojazdy>
