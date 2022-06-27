@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace Zadanie_2
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         ModelObliczeń model = new ModelObliczeń();

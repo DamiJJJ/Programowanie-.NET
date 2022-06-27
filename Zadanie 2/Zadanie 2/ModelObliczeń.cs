@@ -15,7 +15,9 @@ namespace Zadanie_2
             ["√x"] = "√",
             ["1/x"] = "odwrotność",
             ["n!"] = "silnia",
-            ["log"] = "log"
+            ["log"] = "log",
+            ["ceil"] = "sufit",
+            ["floor"] = "podłoga"
         };
         private string buforIO = "0";
         private double?
@@ -44,7 +46,10 @@ namespace Zadanie_2
             {
                 if (operacjaJednoargumentowa != null)
                     return $"{nazwaFunkcji[operacjaJednoargumentowa]}({lewyOperand})";
-                return $"{lewyOperand} {operacja} {prawyOperand}";
+                if (operacja == "xʸ")
+                    return $"{lewyOperand} ^ {prawyOperand}";
+                else
+                    return $"{lewyOperand} {operacja} {prawyOperand}";
             }
         }
 
@@ -140,6 +145,12 @@ namespace Zadanie_2
             if (operacja == "log")
                 lewyOperand = Math.Log10(Convert.ToDouble(lewyOperand));
 
+            if (operacja == "ceil")
+                lewyOperand = Math.Ceiling(Convert.ToDouble(lewyOperand));
+
+            if (operacja == "floor")
+                lewyOperand = Math.Floor(Convert.ToDouble(lewyOperand));
+
             BuforIO = lewyOperand.ToString();
             operacjaJednoargumentowa = default;
         }
@@ -206,7 +217,7 @@ namespace Zadanie_2
                 lewyOperand = lewyOperand / prawyOperand;
             if (operacja == "mod")
                 lewyOperand = lewyOperand % prawyOperand;
-            if (operacja == "^")
+            if (operacja == "xʸ")
                 lewyOperand = Math.Pow(Convert.ToDouble(lewyOperand), Convert.ToDouble(prawyOperand));
 
             BuforIO = lewyOperand.ToString();
